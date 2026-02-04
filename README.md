@@ -22,7 +22,7 @@ A browser extension that adds a quick layout switcher button to Google Meet's ca
 *Coming soon*
 
 ### Firefox Add-ons
-*Coming soon*
+[Firefox Add-On URL](https://addons.mozilla.org/tr/firefox/addon/google-meet-layout-switcher/)
 
 ### Manual Installation
 
