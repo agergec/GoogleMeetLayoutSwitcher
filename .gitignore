@@ -12,3 +12,6 @@ dist/
 
 # Claude
 .claude/
+
+# Store submission info (private)
+STORE_SUBMISSION.md

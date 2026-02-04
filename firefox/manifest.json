@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "Quickly switch between Google Meet layouts (Auto, Tiled, Spotlight, Sidebar) with a single click from the call controls bar.",
   "author": "Gokalp",
-  "homepage_url": "https://github.com/gokalp/GoogleMeetChangeLayout",
+  "homepage_url": "https://github.com/agergec/GoogleMeetLayoutSwitcher",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
@@ -31,7 +31,10 @@
   "browser_specific_settings": {
     "gecko": {
       "id": "{e8b3f06d-4a1c-4b9e-9c5f-7d2a8b3e1f09}",
-      "strict_min_version": "91.0"
+      "strict_min_version": "142.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
     }
   }
 }
