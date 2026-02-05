@@ -41,8 +41,15 @@ zip -r "$BUILD_DIR/google-meet-layout-switcher-firefox.zip" . -x "*.DS_Store"
 echo "✓ Firefox package: dist/google-meet-layout-switcher-firefox.zip"
 
 echo ""
+echo "Copying Tampermonkey userscript..."
+# Copy Tampermonkey userscript to dist
+cp "$SCRIPT_DIR/tampermonkey/google-meet-layout-switcher.user.js" "$BUILD_DIR/"
+echo "✓ Tampermonkey script: dist/google-meet-layout-switcher.user.js"
+
+echo ""
 echo "Build complete!"
 echo ""
 echo "To submit:"
 echo "  Chrome Web Store: https://chrome.google.com/webstore/devconsole"
 echo "  Firefox Add-ons:  https://addons.mozilla.org/developers/"
+echo "  Tampermonkey:      Install dist/google-meet-layout-switcher.user.js directly"
