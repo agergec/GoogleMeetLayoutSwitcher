@@ -28,6 +28,5 @@
       "js": ["content.js"],
       "run_at": "document_idle"
     }
-  ],
-  "minimum_chrome_version": "88"
+  ]
 }

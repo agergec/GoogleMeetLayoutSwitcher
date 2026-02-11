@@ -1,0 +1,14 @@
+// ==UserScript==
+// @name         Google Meet Layout Switcher
+// @namespace    https://github.com/agergec/GoogleMeetLayoutSwitcher
+// @version      1.1.0
+// @description  Quickly switch between Google Meet layouts (Auto, Tiled, Spotlight, Sidebar) with a single click from the call controls bar.
+// @author       Ahmet Gökalp Ergeç
+// @match        https://meet.google.com/*
+// @grant        none
+// @run-at       document-idle
+// @homepageURL  https://github.com/agergec/GoogleMeetLayoutSwitcher
+// @supportURL   https://github.com/agergec/GoogleMeetLayoutSwitcher/issues
+// @license      MIT
+// ==/UserScript==
+
